@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "zar-ritual-inference: simulation of spirit identification in Hormozgan zar rituals"
+version: 1.0.0
+date-released: 2026-11-09
+license: MIT
+type: software
+authors:
+  - family-names: Baselizadeh
+    given-names: Ali
+    affiliation: "University of Milan"
+preferred-citation:
+  type: article
+  title: "Whose inference? A critical review of predictive-processing accounts of spirit possession, with zar rituals in Hormozgan as a test case"
+  authors:
+    - family-names: Baselizadeh
+      given-names: Ali
+      affiliation: "University of Milan"
+    - family-names: Gharasou
+      given-names: Maryam
+      affiliation: "University of Tehran"
+  year: 2026
+  status: in-preparation

@@ -1,0 +1,121 @@
+{
+ "params": {
+  "p_hit": 0.7,
+  "p_fa": 0.15,
+  "q": 0.7,
+  "s_true": 0.85,
+  "s_false": 0.2,
+  "stop": 0.9
+ },
+ "n": 10000,
+ "main": [
+  {
+   "policy": "accept",
+   "accuracy": 0.6797,
+   "songs": 3.4474,
+   "revised": 0.0,
+   "order_deviation": 0.0,
+   "repeat_share": 0.0,
+   "unresolved": 0.0269
+  },
+  {
+   "policy": "verify",
+   "accuracy": 0.8946,
+   "songs": 5.643,
+   "revised": 0.26,
+   "order_deviation": 0.0,
+   "repeat_share": 0.0,
+   "unresolved": 0.0415
+  },
+  {
+   "policy": "epistemic",
+   "accuracy": 0.8755,
+   "songs": 5.0355,
+   "revised": 0.2416,
+   "order_deviation": 0.4669,
+   "repeat_share": 0.0,
+   "unresolved": 0.0596
+  },
+  {
+   "policy": "care",
+   "accuracy": 0.6841,
+   "songs": 11.0,
+   "revised": 0.0,
+   "order_deviation": 0.9558,
+   "repeat_share": 0.5194909090909091,
+   "unresolved": 0.0252
+  }
+ ],
+ "sweep": [
+  {
+   "q": 0.3,
+   "policy": "accept",
+   "accuracy": 0.2926
+  },
+  {
+   "q": 0.3,
+   "policy": "verify",
+   "accuracy": 0.8358
+  },
+  {
+   "q": 0.4,
+   "policy": "accept",
+   "accuracy": 0.393
+  },
+  {
+   "q": 0.4,
+   "policy": "verify",
+   "accuracy": 0.8469
+  },
+  {
+   "q": 0.5,
+   "policy": "accept",
+   "accuracy": 0.492
+  },
+  {
+   "q": 0.5,
+   "policy": "verify",
+   "accuracy": 0.8628
+  },
+  {
+   "q": 0.6,
+   "policy": "accept",
+   "accuracy": 0.5859
+  },
+  {
+   "q": 0.6,
+   "policy": "verify",
+   "accuracy": 0.8797
+  },
+  {
+   "q": 0.7,
+   "policy": "accept",
+   "accuracy": 0.6867
+  },
+  {
+   "q": 0.7,
+   "policy": "verify",
+   "accuracy": 0.8983
+  },
+  {
+   "q": 0.8,
+   "policy": "accept",
+   "accuracy": 0.7812
+  },
+  {
+   "q": 0.8,
+   "policy": "verify",
+   "accuracy": 0.9181
+  },
+  {
+   "q": 0.9,
+   "policy": "accept",
+   "accuracy": 0.8776
+  },
+  {
+   "q": 0.9,
+   "policy": "verify",
+   "accuracy": 0.9426
+  }
+ ]
+}
