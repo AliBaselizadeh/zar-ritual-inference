@@ -45,7 +45,7 @@ Four ritual policies are compared:
 You need Python 3.9 or later.
 
 ```bash
-git clone https://github.com/<your-username>/zar-ritual-inference.git
+git clone https://github.com/AliBaselizadeh/zar-ritual-inference.git
 cd zar-ritual-inference
 python -m venv .venv
 source .venv/bin/activate          # on Windows: .venv\Scripts\activate
